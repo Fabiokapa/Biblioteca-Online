@@ -1,0 +1,85 @@
+header .logo{
+    margin: 0 20px;
+    color: var(--cor-fundo);
+}
+
+header{
+
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background: url(../img/fundo-bo.webp) no-repeat center;
+    background-size: cover;
+    height: 90px;
+}
+
+.logo b{
+    color: var(--cor-branca);
+}
+
+.conteiner-principal{
+    width: 100%;
+}
+
+.conteiner-principal
+.conteiner-titulo h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+}
+
+.conteiner-principal
+.conteiner-livros{
+    width: 100%;
+}
+
+.conteiner-livros
+.sub-livros{
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+table{
+    width: 100%;
+}
+
+table thead{
+    text-align: left;
+    text-transform: uppercase;
+}
+table thead th{
+    font-size: 20px;
+    font-weight:500 !important;
+    color: var(--cor-fundo);
+}
+
+
+
+table tbody{
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+table tbody td{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+}
+
+#opc{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 0 25px;
+}
+
+#opc i{
+    background: var(--cor-fundo);
+    border-radius: 4px;
+    padding: 8px;
+    color: var(--cor-branca);
+    font-size: 20px !important;
+}

@@ -1,0 +1,154 @@
+@media(max-width:1000px){
+    #procurar{
+        margin: 20px !important;
+    }
+}
+
+@media(max-width:800px){
+    .container-categoria
+    .categoria{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:888px){
+    main .painel-inicial #sub-inicial{
+        max-width: 700px;
+        margin: 0 auto;
+        flex-direction: column !important;
+
+        padding: 100px  20px;
+    }
+
+    #sub-inicial h2{
+        text-align: center;
+    }
+
+    #sub-inicial div:first-child span{
+        margin: 25px 0;
+        display:var(--d-flex);
+        align-items:var( --al-iten-c);
+        justify-content: center;
+        gap: 30px 70px !important;
+    }
+}
+
+@media(max-width:850px){
+        .card-l,  .item-card, #resultado_livro > div{
+            display: grid !important;
+            grid-template-columns: repeat(2,1fr) !important;
+        }
+
+        #resultado_livro > div{
+            margin: 0 20px;       
+        }
+}
+
+@media(max-width:830px){
+    .itensCampo{
+        grid-template-columns:1fr !important;
+    }
+}
+
+@media(max-width:600px){
+  
+    #sub-inicial div:first-child h2{
+        font-size: 35px;
+    }
+
+    #sub-inicial div:first-child span{
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px 0;    
+    }
+
+    #sub-inicial div:last-child p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #sub-conteiner-livros > div:first-child{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 20px 0;
+     }
+
+}
+
+@media(max-width:600px){
+
+    .conteiner-titulo h2{
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    .conteiner-novo p{
+        padding:15px 80px !important;
+    }
+
+    /* item livros*/
+    .card-l,  .item-card, #resultado_livro > div{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+}
+
+@media(max-width:580px){
+    .card{
+        width:190px;
+        min-height: 270px !important;
+    }
+}
+
+@media(max-width:550px){
+    .card{
+        width: 160px !important;
+        height: auto !important;
+    }
+
+    #sub-conteiner-livros div h3{
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .card p{
+        font-size: 16px !important;
+    }
+}
+
+@media(max-width:470px){
+
+    .logo h1{
+        font-size: 25px !important;
+    }
+
+    .itensCampo select, input{
+        width: 230px !important;
+    }
+
+    #modal{
+        margin: 20px !important;
+    }
+}
+
+@media(max-width:440px){
+
+    .conteiner-entrar{
+        margin:100px 20px !important;
+    }
+
+    .container-categoria
+    .categoria{
+        padding: 2px;
+    }
+
+    .card{
+        width: 135px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0;
+    }
+
+}

@@ -1,0 +1,206 @@
+@import "./media.css";
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor-fundo:#FF9100;
+    --cor-sinza:#343434;
+    --cor-preta:#000;
+    --cor-branca:#fff;
+
+    --font-r:Roboto;
+    --font-p:poppins;
+    --font-op:Open sans;
+
+    --cor-sinza-fraco:#5a5a5a;
+    --cor-sinza-claro:#f5f5f5;
+    --cor-hover-l:#c8c1c1;
+
+      /*Flex box*/
+      --d-flex: flex;
+      --al-iten-c: center;
+      --flex-direct-c:column;
+      --flex-direct-r:row;
+      --just-c-around:space-around;
+      --just-c-between:space-between;
+      --just-c-center:center;
+  
+      /*Grid css*/
+      --d-grid:grid;
+      --g-t-colunm-1:repeat(1,1fr);
+      --g-t-colunm-2:repeat(2,1fr);
+      --g-t-colunm-3:repeat(3,1fr);
+
+        /* Fontes */
+        --font-300: 300;
+        --font-400: 400;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+a, h1,h2,h3,h4,i,ul,p{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color:#ebebeb;
+    font-size: 22px;
+}
+
+figure, img{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+input, select{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bo{
+    padding:10px;
+}
+
+#header{
+    background: url(../img/fundo-bo.webp) no-repeat center;
+    background-size: cover; 
+}
+
+header .bo{
+    background: var(--cor-sinza-claro);
+}
+
+.logo h2{
+    margin: 0 40px;
+    color: #fff;
+    font-size:35px;
+}
+
+.logo h2 a{
+    color: #fff;
+}
+
+::placeholder{
+    color: var(--cor-branca);
+}
+
+#header{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 0 8px;
+
+    margin: 0 40px 0 0;
+}
+.menu a{
+    padding: 10px;
+    color: var(--cor-branca);
+    font-weight: 300;
+    font-size: 17px;
+}
+.menu a:hover{
+    opacity: .7;
+}
+
+/* Estilo geral rodape */
+.conteiner-rodape p{
+    color: var(--cor-branca);
+    font-size: 15px;
+    font-weight: var(--font-300);
+}
+
+.conteiner-rodape{
+    background: var(--cor-sinza);
+    padding: 8px;
+}
+
+/*--------------------------------
+    #  ESTILO GERAL DOS CARDS
+--------------------------------*/
+
+.card{
+    width:215px;
+    min-height: 400px;
+    height: 325px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 8px;
+    background:#280d0025;
+    border-radius: 8px;
+}
+
+.card span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card p{
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 18px;
+    color: #421500;
+    padding: 4px;
+}
+
+.card a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 4px;
+    padding: 2px;
+    font-weight: var(--font-300);
+    font-size: 14px;
+    color: #421500;
+}
+
+.card a i{
+    color: var(--cor-fundo);
+    font-size: 17px !important;
+    background: #421500;
+    color: var(--cor-branca);
+    padding: 10px;
+    clip-path: circle();
+}
+
+
+
+
+
+

@@ -1,0 +1,178 @@
+body{
+    overflow: hidden;
+}
+
+header .logo{
+    margin: 0 20px;
+    color: var(--cor-fundo);
+}
+
+header{
+    display:var(--d-flex);
+    align-items:var( --al-iten-c);
+    justify-content:var(--just-c-between);
+
+    height: 90px;
+    background: url(../img/fundo-bo.webp) no-repeat center;
+    background-size: cover; 
+}
+
+.logo b{
+    color: var(--cor-branca);
+}
+
+.conteiner-principal{
+    margin: 100px auto;
+    max-width: 600px;
+    height: auto;
+
+    display:var(--d-flex);
+    align-items:var(--al-iten-c);
+    flex-direction:var(--flex-direct-c);
+    gap: 50px 0;
+
+    padding: 25px;
+}
+
+.conteiner-titulo{
+    margin: 30px auto 0;
+}
+.conteiner-titulo h2{
+    font-size: 50px;
+}
+.conteiner-titulo h2 b{
+    color:var(--cor-fundo);
+}
+
+.conteiner-novo p{
+    background: var(--cor-fundo);
+    padding:20px 100px;
+    border-radius:4px;
+    color: var(--cor-branca);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conteiner-novo p:hover{
+    background: var(--cor-sinza);
+    transition: .3s;
+}
+
+/*Especificando Modal painel controle*/
+.conteiner-modal {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: #040404ab;
+    display: none;
+}
+
+/* Entrada e saida do modal */
+.conteiner-modal.mostrar{
+    display:block;
+}
+
+@keyframes modal{
+
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform:  translate3d(0,0,0);
+    }
+}
+
+.mostrar #modal{
+    animation: modal .3s;
+}
+
+#fechar {
+    padding: 10px;
+    background:var(--cor-fundo);
+    border-radius: 4px 0px 4px  0px;
+    color: var(--cor-branca);
+}
+
+#modal {
+    position: relative;
+    margin: 50px auto 0;
+    max-width:500px;
+    background: var(--cor-branca);
+    border-radius: 8px;
+}
+
+#modal .itensCampo{
+    display:var(--d-flex);
+    flex-direction:var(--flex-direct-c);
+
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.itensCampo label{
+    display:var(--d-flex);
+    align-items:var( --al-iten-c);
+    gap: 0 8px;
+    margin: 8px 0;
+
+    border: 2px solid #2a2a2a55;
+    border-radius: 4px;
+}
+
+.itensCampo #status{
+    border: none;
+}
+
+label textarea{
+    width: 100%;
+}
+
+#ida{
+    display: none !important;
+}
+
+.itensCampo label input[type='text'],
+input[type='number'], select{
+    width: 100%;
+    height: 45px;
+    font-family: var(--font-r);
+    font-size: 18px;
+    padding: 0 4px;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    color: var(--cor-preta);
+    font-size: 16px;
+}
+
+form{
+    padding: 8px;
+}
+
+form .add{
+    max-width: 320px;
+    margin: 0 auto;
+    background:var(--cor-fundo);
+    border-radius: 4px;
+}
+form .add input{
+    width: 100%;
+    height: 45px;
+    font-family: var(--font-r);
+    font-size: 18px;
+    color: var(--cor-branca);
+    border-radius: 4px;
+}
+
+form .add input:hover{
+    background: #00ad00;
+    transition: .3s;
+}

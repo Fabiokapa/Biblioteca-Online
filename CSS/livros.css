@@ -1,0 +1,140 @@
+button{
+    background: none;
+    border: none;
+}
+
+.conteiner-cards-l{
+    width:100%;
+    min-height: 500px;
+}
+
+.conteiner-cards-l
+#procurar{
+    margin: 30px auto;
+    max-width: 1100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#procurar
+.item-categoria{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-categoria li{
+    border-left: 2px solid #421500;
+    padding: 2px;
+}
+
+.item-categoria li a{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--cor-fundo);
+}
+
+
+#procurar form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width:300px;
+    background: var(--cor-fundo);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#procurar form input:focus form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width:250px;
+    background: var(--cor-fundo);
+    border-radius: 4px;
+    padding: 4px;
+}
+#procurar form div input{
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    font-family: var(--font-op);
+    font-size: 17px;
+    color: var(--cor-preta);
+    padding: 0 8px;
+}
+
+/*-------------------------------------*/
+    Conteiner
+/*------------------------------------*/
+
+.sub-categoria{
+    max-width: 1100px;
+}
+
+.sub-categoria 
+.titulo-categoria{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.titulo-categoria h2{
+    color:#421500;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #42150009;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.container-categoria
+.categoria{
+    padding: 20px;
+
+    max-width:1100px;
+
+    margin: 30px auto !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap:30px 0;
+}
+
+/*--------------------------------
+    #  ESTILO BUSCA POR LIVROS
+--------------------------------*/
+
+#resultado_livro > div{
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: var(--d-grid);
+    grid-template-columns: var(--g-t-colunm-3);
+
+    gap: 10px;
+}
+
+/* Estilo topo */
+#topo{
+    position: fixed;
+    bottom: 35px;
+    right: 40px;
+
+    background:var(--cor-fundo);
+    clip-path: circle();
+    padding: 10px;
+}
