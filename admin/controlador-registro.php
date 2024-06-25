@@ -27,7 +27,7 @@
             $nome_novo = uniqid();
             $extensao = strtolower(pathinfo($nome, PATHINFO_EXTENSION));
 
-            if($extensao != "jpg" && $extensao != "png" && $extensao != "webp"){
+            if($extensao != "jpg" && $extensao != "png" && $extensao != "jpeg"){
                 echo " O arquivo não pode ser enviado";
             } else {
                 

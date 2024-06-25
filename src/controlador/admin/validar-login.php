@@ -21,7 +21,7 @@
                 unset($_SESSION['nome']);
                 unset($_SESSION['senha']);
 
-                header("Location:../../admin/admin.php");
+                header("Location:http:../../../admin/admin.php");
             }
             
         }

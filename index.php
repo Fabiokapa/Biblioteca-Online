@@ -75,7 +75,7 @@
                                     <div class="sub-categoria">
                                                 <div class="categoria d-pessoal">
                                                     <?php
-                                                        $sqlLivros_DP = mysqli_query($conexao, " SELECT *FROM livro WHERE categoria='Desenvolvimento Pess' ");
+                                                        $sqlLivros_DP = mysqli_query($conexao, " SELECT *FROM livro WHERE destaque='destaque' ");
                                                         while($item = mysqli_fetch_assoc($sqlLivros_DP)){
                                                     ?>
                                                         <div class="card">

@@ -78,6 +78,13 @@
 
 @media(max-width:600px){
 
+    #procurar
+    .item-categoria{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
     .conteiner-titulo h2{
         font-size: 34px !important;
         text-align: center;

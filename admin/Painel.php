@@ -96,16 +96,16 @@
                                             <option value="Inteligência Artificial">Inteligência Artificial</option>
                                             <option value="Desenvolvimento Pessoal">Desenvolvimento Pessoal</option>
                                             <option value="Auto Ajuda">Auto Ajuda</option>
-                                            <option value="Auto Ajuda">Tecnolgia</option>
-                                            <option value="Auto Ajuda">Programação</option>
-                                            <option value="Auto Ajuda">Romance</option>
-                                            <option value="Auto Ajuda">Ficção Cientifica</option>
-                                            <option value="Auto Ajuda">Finanças</option>
-                                            <option value="Auto Ajuda">Drama</option>
-                                            <option value="Auto Ajuda">História</option>
-                                            <option value="Auto Ajuda">Negôcios</option>
-                                            <option value="Auto Ajuda">Educação Financeira</option>
-                                            <option value="Auto Ajuda">Educação</option>
+                                            <option value="Tecnolgia">Tecnolgia</option>
+                                            <option value="Programação">Programação</option>
+                                            <option value="Romance">Romance</option>
+                                            <option value="Ficção Cientifica">Ficção Cientifica</option>
+                                            <option value="Finanças">Finanças</option>
+                                            <option value="Drama">Drama</option>
+                                            <option value="Drama">História</option>
+                                            <option value="Negôcios">Negôcios</option>
+                                            <option value="Educação Financeira">Educação Financeira</option>
+                                            <option value="Educação">Educação</option>
                                         </select>
                                     </label>
                                     

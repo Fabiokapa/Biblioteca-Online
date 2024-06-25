@@ -1,6 +1,7 @@
 
 const buscar = document.getElementById("buscar")
 const valor = document.getElementById("nome-livro")
+
           buscar.addEventListener('click', (e)=>{
               e.preventDefault();
 

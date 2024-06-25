@@ -8,7 +8,7 @@
     $conexao = new mysqli($host, $name, $pass, $db);
 
     if($conexao->error){
-        die(" Falha ma conexão" . $conexao->error);
+        die(" Falha na conexão" . $conexao->error);
     }
 
 ?>

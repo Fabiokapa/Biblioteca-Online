@@ -23,7 +23,6 @@ button{
 #procurar
 .item-categoria{
     display: flex;
-    align-items: center;
     gap: 8px;
 }
 
@@ -51,7 +50,7 @@ button{
 }
 
 ::placeholder{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -87,7 +86,6 @@ button{
 .titulo-categoria{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 15px;
     border-radius: 4px;
 }
 
@@ -96,8 +94,8 @@ button{
     font-weight: 500;
     text-transform: uppercase;
     background: #42150009;
-    border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
+    font-size: 17px;
 }
 
 .container-categoria
