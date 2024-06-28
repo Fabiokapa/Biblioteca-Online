@@ -7,7 +7,7 @@
 @media(max-width:800px){
     .container-categoria
     .categoria{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr) !important;
     }
 }
 

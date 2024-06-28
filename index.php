@@ -1,20 +1,9 @@
 <?php
     include_once __DIR__ .  "/src/basededados/repositorio.php";
+    include_once __DIR__ .  "/template/cabecalho.php";
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel Inicial</title>
-
-    <!---------------- Arquivos CSS -------------------->
-
-    <link rel="stylesheet" href="CSS/inicial.css">
-    <link rel="stylesheet" href="CSS/Reset.css">
-    <link rel="stylesheet" href="CSS/bootstrap-icons/bootstrap-icons.css">
-</head>
-<body>
+        <!-------- Titulo ---------->
+        <title>Painel Inicial</title>
 
         <header>
             <div class="bo"><p>Biblioteca Online</p></div>
@@ -112,5 +101,6 @@
 
         </main>
 
-</body>
-</html>
+    <?php
+        include_once __DIR__ . "/template/rodape.php";
+     ?>
